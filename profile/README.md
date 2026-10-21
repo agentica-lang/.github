@@ -4,7 +4,7 @@ Agentica is Ruby with static types: a small language with Ruby-like syntax. Ever
 
 A front end written in Agentica compiles each program to bytecode, and a C VM runs it. Both ship as one binary, `agentica`.
 
-```agentica
+```ruby
 ## Returns the price with the tax added.
 def with_tax(cents: Int) -> Int
   return cents + cents * 21 / 100
