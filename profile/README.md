@@ -20,13 +20,14 @@ end
 
 | Repository | What it is |
 |---|---|
-| [sonic182/agentica](https://github.com/sonic182/agentica) | The language: compiler, VM, standard library and docs |
+| [agentica](https://github.com/agentica-lang/agentica) | The language: compiler, VM, standard library and docs |
+| [agentica-db](https://github.com/agentica-lang/agentica-db) | Database package: one API for PostgreSQL, SQLite and MySQL, through the FFI |
 | [agc-lsp](https://github.com/agentica-lang/agc-lsp) | Language server (LSP), written in Agentica |
 | [tree-sitter-agentica](https://github.com/agentica-lang/tree-sitter-agentica) | Tree-sitter grammar |
 | [agc-tmlanguage](https://github.com/agentica-lang/agc-tmlanguage) | TextMate grammar for syntax highlighting |
 
 ## Links
 
-- [Documentation](https://sonic182.github.io/agentica/)
-- [Install guide](https://sonic182.github.io/agentica/getting-started/)
-- [Releases](https://github.com/sonic182/agentica/releases)
+- [Documentation](https://agentica-lang.github.io/agentica/)
+- [Install guide](https://agentica-lang.github.io/agentica/getting-started/)
+- [Releases](https://github.com/agentica-lang/agentica/releases)
