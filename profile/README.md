@@ -21,7 +21,9 @@ end
 | Repository | What it is |
 |---|---|
 | [agentica](https://github.com/agentica-lang/agentica) | The language: compiler, VM, standard library and docs |
+| [bond](https://github.com/agentica-lang/bond) | Web framework in the spirit of Sinatra: router, filters, JSON, forms, cookies, static files and server-sent events ([docs](https://agentica-lang.github.io/bond/)) |
 | [agentica-db](https://github.com/agentica-lang/agentica-db) | Database package: one API for PostgreSQL, SQLite and MySQL, through the FFI |
+| [agentica-llm](https://github.com/agentica-lang/agentica-llm) | Prototype LLM inference server: Bond in front of llama.cpp through the FFI, with an OpenAI-shaped chat API |
 | [agc-lsp](https://github.com/agentica-lang/agc-lsp) | Language server (LSP), written in Agentica |
 | [tree-sitter-agentica](https://github.com/agentica-lang/tree-sitter-agentica) | Tree-sitter grammar |
 | [agc-tmlanguage](https://github.com/agentica-lang/agc-tmlanguage) | TextMate grammar for syntax highlighting |
