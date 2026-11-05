@@ -23,6 +23,7 @@ end
 | [agentica](https://github.com/agentica-lang/agentica) | The language: compiler, VM, standard library and docs |
 | [bond](https://github.com/agentica-lang/bond) | Web framework in the spirit of Sinatra: router, filters, JSON, forms, cookies, static files and server-sent events ([docs](https://agentica-lang.github.io/bond/)) |
 | [agentica-db](https://github.com/agentica-lang/agentica-db) | Database package: one API for PostgreSQL, SQLite and MySQL, through the FFI |
+| [packages](https://github.com/agentica-lang/packages) | Small packages, one folder each (installed with `subdir` and a prefixed tag): caches first |
 | [agentica-llama-server](https://github.com/agentica-lang/agentica-llama-server) | Prototype LLM inference server: Bond in front of llama.cpp through the FFI, with an OpenAI-shaped chat API |
 | [agentica-campfire](https://github.com/agentica-lang/agentica-campfire) | Group chat, a port of 37signals' Campfire on Bond, EAG templates and agentica-db (in progress) |
 | [agc-lsp](https://github.com/agentica-lang/agc-lsp) | Language server (LSP), written in Agentica |
