@@ -22,10 +22,12 @@ end
 |---|---|
 | [agentica](https://github.com/agentica-lang/agentica) | The language: compiler, VM, standard library and docs |
 | [bond](https://github.com/agentica-lang/bond) | Web framework in the spirit of Sinatra: router, filters, JSON, forms, cookies, static files and server-sent events ([docs](https://agentica-lang.github.io/bond/)) |
-| [agentica-db](https://github.com/agentica-lang/agentica-db) | Database package: one API for PostgreSQL, SQLite and MySQL, through the FFI |
-| [packages](https://github.com/agentica-lang/packages) | Small packages, one folder each (installed with `subdir` and a prefixed tag): caches first |
+| [agentica-db](https://github.com/agentica-lang/agentica-db) | Database package: one API for PostgreSQL, SQLite and MySQL, with native drivers for SQLite and PostgreSQL and the FFI for the rest |
+| [packages](https://github.com/agentica-lang/packages) | Small packages, one folder each (installed with `subdir` and a prefixed tag): `bond-channels` (Action Cable for Bond) and `prop` (property-based tests) |
 | [agentica-llama-server](https://github.com/agentica-lang/agentica-llama-server) | Prototype LLM inference server: Bond in front of llama.cpp through the FFI, with an OpenAI-shaped chat API |
 | [agentica-campfire](https://github.com/agentica-lang/agentica-campfire) | Group chat, a port of 37signals' Campfire on Bond, EAG templates and agentica-db (in progress) |
+| [cchecker](https://github.com/agentica-lang/cchecker) | C checker written in Agentica: gcc `-fanalyzer` and clang-tidy in one command with a baseline, plus project rules on clang's AST (`CC_SHORT` and `CC_HOT` effects on the call graph) |
+| [setup-agentica](https://github.com/agentica-lang/setup-agentica) | GitHub Action that installs a pinned Agentica release in CI (sha256 check, retries, cache) |
 | [agc-lsp](https://github.com/agentica-lang/agc-lsp) | Language server (LSP), written in Agentica |
 | [tree-sitter-agentica](https://github.com/agentica-lang/tree-sitter-agentica) | Tree-sitter grammar |
 | [agc-tmlanguage](https://github.com/agentica-lang/agc-tmlanguage) | TextMate grammar for syntax highlighting |
