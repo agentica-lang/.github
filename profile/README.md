@@ -27,6 +27,7 @@ end
 | [agentica-llama-server](https://github.com/agentica-lang/agentica-llama-server) | Prototype LLM inference server: Bond in front of llama.cpp through the FFI, with an OpenAI-shaped chat API |
 | [agentica-campfire](https://github.com/agentica-lang/agentica-campfire) | Group chat, a port of 37signals' Campfire on Bond, EAG templates and agentica-db (in progress) |
 | [cchecker](https://github.com/agentica-lang/cchecker) | C checker written in Agentica: gcc `-fanalyzer` and clang-tidy in one command, with a baseline (project rules on clang's AST in progress) |
+| [agentica-lean](https://github.com/agentica-lang/agentica-lean) | Lean 4 specifications and proofs of Agentica builtins, checked against the real VM with differential tests (in progress) |
 | [setup-agentica](https://github.com/agentica-lang/setup-agentica) | GitHub Action that installs a pinned Agentica release in CI (in progress) |
 | [agc-lsp](https://github.com/agentica-lang/agc-lsp) | Language server (LSP), written in Agentica |
 | [tree-sitter-agentica](https://github.com/agentica-lang/tree-sitter-agentica) | Tree-sitter grammar |
