@@ -6,7 +6,7 @@ A front end written in Agentica compiles each program to bytecode, and a C VM ru
 
 ```ruby
 def main() -> Void
-  ["4", "8", "x"].each do |text|
+  for text in ["4", "8", "x"]
     case text.to_i
       ok(n) -> puts("#{text} doubled is #{n * 2}")
       error(_) -> puts("#{text} is not a number")
